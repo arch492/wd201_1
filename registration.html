@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>
+            REGISTRATION FORM
+        </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"/>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="row col-md-6 col-md-offset-3">
+                <div class="panel panel-primary">
+                    <div class="panel-heading text-center">
+                        <h1>REGISTRATION FORM</h1>
+                    </div>
+                    <div class="panel-body">
+                        <form id="user-form">
+                            <div class="form-group">
+                                <label for="name">NAME</label>
+                                <input required type="text" class="form-control" id="name" name="name">
+                            </div>
+                            
+                            
+                            <div class="form-group">
+                                <label for="email">EMAIL</label>
+                                <input required type="email" class="form-control" id="email" name="email" placeholder="abc@gmail.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password">PASSWORD</label>
+                                <input required type="password" class="form-control" id="password" name="password">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="dob">DATE OF BIRTH</label>
+                                <input required type="date" class="form-control" id="dob" name="dob">
+                            </div>
+
+                            <div>
+                                <label for="acceptTerms"> Accept Terms and Conditions</label>
+                                <input required type="checkbox"  id="acceptTerms" name="acceptTerms">
+                            </div>
+
+                                                
+                            <div>
+                                <input type="submit" value="submit" class="btn btn-primary">   
+                             </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="relative bg-white px-6 mt-5 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:rounded-lg sm:px-10"></div>
+        <div class="mx-auto">
+        <h2 class="text-3xl-text-center font-bold leading tight" style="text-align: center;">Entries</h2>
+        <div class="divide-y divide-gray-300/50" id="user-entries"></div>
+    </div>
+    </div>
+    </body>
+        <script src="main.js"></script>
+    </body>
+</html>
